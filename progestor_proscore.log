@@ -1,0 +1,289 @@
+2025-10-27 15:53:02,021 - INFO - [15:53:02] Iniciando loop contínuo...
+2025-10-27 15:53:02,022 - INFO - ================================================================================
+2025-10-27 15:53:02,023 - INFO - Iniciando Progestor - Consulta Proscore - 2025-10-27 15:53:02.022898
+2025-10-27 15:53:04,024 - INFO - ================================================================================
+2025-10-27 15:53:04,026 - INFO - Iniciando processamento de lote (2 registros máx).
+2025-10-27 15:53:04,028 - INFO - {<conection.ConectionClass.DbConfig object at 0x00000184AABADA90>}
+2025-10-27 15:53:04,030 - INFO - {338}
+2025-10-27 15:53:04,034 - INFO - tamanho da busca 2
+2025-10-27 15:53:04,036 - WARNING - [DEBUG SQL] Parâmetros: [338, 2]
+2025-10-27 15:53:04,606 - ERROR - Erro fatal na execução: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+Traceback (most recent call last):
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\classsProcessor.py", line 33, in executar
+    total_processados = processar_lote(self)
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\process_lote.py", line 17, in processar_lote
+    registros = selecionar_all_dados(self)
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\conection\busca_dados.py", line 81, in selecionar_all_dados
+    with ConectionClass.DbConnect(self.config) as conn:
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\conection\ConectionClass.py", line 25, in __enter__
+    self.connection = psycopg2.connect(
+                      ~~~~~~~~~~~~~~~~^
+        host=self.config.HOST,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        password=self.config.PASSWORD
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-10-27 15:53:04,627 - INFO - 
+================================================================================
+2025-10-27 15:53:04,628 - INFO - ESTATÍSTICAS DE EXECUÇÃO DE INSERIR PROCESSOS E REQUEST
+2025-10-27 15:53:04,629 - INFO - ================================================================================
+2025-10-27 15:53:04,629 - INFO - Início:                    2025-10-27 15:53:02
+2025-10-27 15:53:04,629 - INFO - Quantidade Maxima:         2
+2025-10-27 15:53:04,630 - INFO - Fim:                       2025-10-27 15:53:04
+2025-10-27 15:53:04,630 - INFO - Duração:                   2.60 segundos
+2025-10-27 15:53:04,631 - INFO - [{time.strftime('%H:%M:%S')}] Erro inesperado: {e}. Continuará em 30 segundos.
+2025-10-27 15:54:04,635 - INFO - ================================================================================
+2025-10-27 15:54:04,637 - INFO - Iniciando Progestor - Consulta Proscore - 2025-10-27 15:54:04.635198
+2025-10-27 15:54:06,639 - INFO - ================================================================================
+2025-10-27 15:54:06,640 - INFO - Iniciando processamento de lote (2 registros máx).
+2025-10-27 15:54:06,640 - INFO - {<conection.ConectionClass.DbConfig object at 0x00000184AABADA90>}
+2025-10-27 15:54:06,641 - INFO - {338}
+2025-10-27 15:54:06,642 - INFO - tamanho da busca 2
+2025-10-27 15:54:06,642 - WARNING - [DEBUG SQL] Parâmetros: [338, 2]
+2025-10-27 15:54:06,719 - ERROR - Erro fatal na execução: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+Traceback (most recent call last):
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\classsProcessor.py", line 33, in executar
+    total_processados = processar_lote(self)
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\process_lote.py", line 17, in processar_lote
+    registros = selecionar_all_dados(self)
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\conection\busca_dados.py", line 81, in selecionar_all_dados
+    with ConectionClass.DbConnect(self.config) as conn:
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\conection\ConectionClass.py", line 25, in __enter__
+    self.connection = psycopg2.connect(
+                      ~~~~~~~~~~~~~~~~^
+        host=self.config.HOST,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        password=self.config.PASSWORD
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-10-27 15:54:06,726 - INFO - 
+================================================================================
+2025-10-27 15:54:06,727 - INFO - ESTATÍSTICAS DE EXECUÇÃO DE INSERIR PROCESSOS E REQUEST
+2025-10-27 15:54:06,727 - INFO - ================================================================================
+2025-10-27 15:54:06,727 - INFO - Início:                    2025-10-27 15:54:04
+2025-10-27 15:54:06,728 - INFO - Quantidade Maxima:         2
+2025-10-27 15:54:06,728 - INFO - Fim:                       2025-10-27 15:54:06
+2025-10-27 15:54:06,729 - INFO - Duração:                   2.09 segundos
+2025-10-27 15:54:06,729 - INFO - [{time.strftime('%H:%M:%S')}] Erro inesperado: {e}. Continuará em 30 segundos.
+2025-10-27 15:54:23,117 - INFO - [15:54:23] Iniciando loop contínuo...
+2025-10-27 15:54:23,118 - INFO - ================================================================================
+2025-10-27 15:54:23,118 - INFO - Iniciando Progestor - Consulta Proscore - 2025-10-27 15:54:23.118252
+2025-10-27 15:54:25,138 - INFO - ================================================================================
+2025-10-27 15:54:25,199 - INFO - Iniciando processamento de lote (2 registros máx).
+2025-10-27 15:54:25,224 - INFO - {<conection.ConectionClass.DbConfig object at 0x00000225CB3ADA90>}
+2025-10-27 15:54:25,226 - INFO - {338}
+2025-10-27 15:54:25,227 - INFO - tamanho da busca 2
+2025-10-27 15:54:25,232 - WARNING - [DEBUG SQL] Parâmetros: [338, 2]
+2025-10-27 15:54:25,355 - ERROR - Erro fatal na execução: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+Traceback (most recent call last):
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\classsProcessor.py", line 33, in executar
+    total_processados = processar_lote(self)
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\process_lote.py", line 17, in processar_lote
+    registros = selecionar_all_dados(self)
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\conection\busca_dados.py", line 81, in selecionar_all_dados
+    with ConectionClass.DbConnect(self.config) as conn:
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\conection\ConectionClass.py", line 25, in __enter__
+    self.connection = psycopg2.connect(
+                      ~~~~~~~~~~~~~~~~^
+        host=self.config.HOST,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        password=self.config.PASSWORD
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-10-27 15:54:25,365 - INFO - 
+================================================================================
+2025-10-27 15:54:25,365 - INFO - ESTATÍSTICAS DE EXECUÇÃO DE INSERIR PROCESSOS E REQUEST
+2025-10-27 15:54:25,366 - INFO - ================================================================================
+2025-10-27 15:54:25,366 - INFO - Início:                    2025-10-27 15:54:23
+2025-10-27 15:54:25,367 - INFO - Quantidade Maxima:         2
+2025-10-27 15:54:25,367 - INFO - Fim:                       2025-10-27 15:54:25
+2025-10-27 15:54:25,368 - INFO - Duração:                   2.25 segundos
+2025-10-27 15:54:25,368 - INFO - [15:54:25] Erro inesperado: cannot access local variable 'total_processados' where it is not associated with a value. Continuará em 30 segundos.
+2025-10-27 15:59:31,018 - INFO - [15:59:31] Iniciando loop contínuo...
+2025-10-27 15:59:31,018 - INFO - ================================================================================
+2025-10-27 15:59:31,019 - INFO - Iniciando Progestor - Consulta Proscore - 2025-10-27 15:59:31.018756
+2025-10-27 15:59:33,020 - INFO - ================================================================================
+2025-10-27 15:59:33,027 - INFO - Iniciando processamento de lote (2 registros máx).
+2025-10-27 15:59:33,030 - INFO - {<conection.ConectionClass.DbConfig object at 0x000002363562DA90>}
+2025-10-27 15:59:33,035 - INFO - {338}
+2025-10-27 15:59:33,036 - INFO - tamanho da busca 2
+2025-10-27 15:59:33,037 - WARNING - [DEBUG SQL] Parâmetros: [338, 2]
+2025-10-27 15:59:33,174 - ERROR - Erro fatal na execução: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+Traceback (most recent call last):
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\classsProcessor.py", line 33, in executar
+    total_processados_lote = processar_lote(self)
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\process_lote.py", line 17, in processar_lote
+    registros = selecionar_all_dados(self)
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\conection\busca_dados.py", line 81, in selecionar_all_dados
+    with ConectionClass.DbConnect(self.config) as conn:
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\conection\ConectionClass.py", line 25, in __enter__
+    self.connection = psycopg2.connect(
+                      ~~~~~~~~~~~~~~~~^
+        host=self.config.HOST,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        password=self.config.PASSWORD
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-10-27 15:59:33,184 - INFO - 
+================================================================================
+2025-10-27 15:59:33,185 - INFO - ESTATÍSTICAS DE EXECUÇÃO DE INSERIR PROCESSOS E REQUEST
+2025-10-27 15:59:33,185 - INFO - ================================================================================
+2025-10-27 15:59:33,186 - INFO - Início:                    2025-10-27 15:59:31
+2025-10-27 15:59:33,186 - INFO - Quantidade Maxima:         2
+2025-10-27 15:59:33,187 - INFO - Fim:                       2025-10-27 15:59:33
+2025-10-27 15:59:33,187 - INFO - Duração:                   2.17 segundos
+2025-10-27 15:59:33,187 - INFO - [15:59:33] Erro inesperado: cannot access local variable 'total_processados_lote' where it is not associated with a value. Continuará em 30 segundos.
+2025-10-27 16:00:33,188 - INFO - ================================================================================
+2025-10-27 16:00:33,189 - INFO - Iniciando Progestor - Consulta Proscore - 2025-10-27 16:00:33.188853
+2025-10-27 16:00:35,190 - INFO - ================================================================================
+2025-10-27 16:00:35,191 - INFO - Iniciando processamento de lote (2 registros máx).
+2025-10-27 16:00:35,191 - INFO - {<conection.ConectionClass.DbConfig object at 0x000002363562DA90>}
+2025-10-27 16:00:35,191 - INFO - {338}
+2025-10-27 16:00:35,192 - INFO - tamanho da busca 2
+2025-10-27 16:00:35,192 - WARNING - [DEBUG SQL] Parâmetros: [338, 2]
+2025-10-27 16:00:35,345 - ERROR - Erro fatal na execução: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+Traceback (most recent call last):
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\classsProcessor.py", line 33, in executar
+    total_processados_lote = processar_lote(self)
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\process_lote.py", line 17, in processar_lote
+    registros = selecionar_all_dados(self)
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\conection\busca_dados.py", line 81, in selecionar_all_dados
+    with ConectionClass.DbConnect(self.config) as conn:
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\conection\ConectionClass.py", line 25, in __enter__
+    self.connection = psycopg2.connect(
+                      ~~~~~~~~~~~~~~~~^
+        host=self.config.HOST,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        password=self.config.PASSWORD
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\proScore_25\OneDrive - Cheque-Pre.com Tecnologia da Informação Ltda\Área de Trabalho\Progestor_python_elt\venv\Lib\site-packages\psycopg2\__init__.py", line 135, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 failed: fe_sendauth: no password supplied
+
+2025-10-27 16:00:35,352 - INFO - 
+================================================================================
+2025-10-27 16:00:35,353 - INFO - ESTATÍSTICAS DE EXECUÇÃO DE INSERIR PROCESSOS E REQUEST
+2025-10-27 16:00:35,354 - INFO - ================================================================================
+2025-10-27 16:00:35,354 - INFO - Início:                    2025-10-27 16:00:33
+2025-10-27 16:00:35,355 - INFO - Quantidade Maxima:         2
+2025-10-27 16:00:35,356 - INFO - Fim:                       2025-10-27 16:00:35
+2025-10-27 16:00:35,357 - INFO - Duração:                   2.16 segundos
+2025-10-27 16:00:35,357 - INFO - [16:00:35] Erro inesperado: cannot access local variable 'total_processados_lote' where it is not associated with a value. Continuará em 30 segundos.
+2025-10-27 16:00:55,805 - INFO - [16:00:55] Iniciando loop contínuo...
+2025-10-27 16:00:55,806 - INFO - ================================================================================
+2025-10-27 16:00:55,806 - INFO - Iniciando Progestor - Consulta Proscore - 2025-10-27 16:00:55.806198
+2025-10-27 16:00:57,808 - INFO - ================================================================================
+2025-10-27 16:00:57,811 - INFO - Iniciando processamento de lote (2 registros máx).
+2025-10-27 16:00:57,813 - INFO - {<conection.ConectionClass.DbConfig object at 0x000001BA0090DA90>}
+2025-10-27 16:00:57,815 - INFO - {338}
+2025-10-27 16:00:57,818 - INFO - tamanho da busca 2
+2025-10-27 16:00:57,826 - WARNING - [DEBUG SQL] Parâmetros: [338, 2]
+2025-10-27 16:00:58,878 - INFO - Capturados 2 registros para processamento.
+2025-10-27 16:00:59,043 - INFO - Iniciando processamento de 2 registros
+2025-10-27 16:00:59,662 - WARNING - Campos aquisição: tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed
+2025-10-27 16:00:59,662 - WARNING - Meus valores fora do split: ['76264']
+2025-10-27 16:00:59,666 - INFO - Associação inicial (zip): {'tlidersinistrocrmmed': '76264'}
+2025-10-27 16:00:59,669 - INFO - O número de valores é 1, mas não é um CPF/CNPJ. Mantendo atribuição original e não é possível pesquisar.
+2025-10-27 16:00:59,672 - INFO - Parâmetros finais gerados: &tlidersinistrocrmmed=76264
+2025-10-27 16:01:00,173 - INFO - Status atualizado para :: 1 - Transação 2999603
+2025-10-27 16:01:00,186 - WARNING - Campos aquisição: tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed
+2025-10-27 16:01:00,188 - WARNING - Meus valores fora do split: ['240532']
+2025-10-27 16:01:00,199 - INFO - Associação inicial (zip): {'tlidersinistrocrmmed': '240532'}
+2025-10-27 16:01:00,202 - INFO - O número de valores é 1, mas não é um CPF/CNPJ. Mantendo atribuição original e não é possível pesquisar.
+2025-10-27 16:01:00,203 - INFO - Parâmetros finais gerados: &tlidersinistrocrmmed=240532
+2025-10-27 16:01:00,686 - INFO - Status atualizado para :: 1 - Transação 2999590
+2025-10-27 16:01:01,192 - WARNING - Fase 1 concluída: 2 
+2025-10-27 16:01:02,463 - INFO - Requisição: https://proscore.com.br/cns/json.chp?progestor_prc=338&rde=2620&rdelja=134387&ctr=417039&srvcns=1&tcnscod=262936&tlidersinistrocrmmed=76264
+2025-10-27 16:01:02,467 - INFO - Requisição: https://proscore.com.br/cns/json.chp?progestor_prc=338&rde=2620&rdelja=134387&ctr=417039&srvcns=1&tcnscod=262936&tlidersinistrocrmmed=240532
+2025-10-27 16:01:02,467 - INFO - meus fature {<Future at 0x1ba0090de80 state=running>: {'processo_id': 338, 'contrato': 417039, 'rede': 2620, 'codcns': 262936, 'nome_arquivo': 'new_lista_crm.csv', 'aceite_execucao': True, 'mensagem_alerta': None, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 59, 22, 627205), 'configuracao_json': '[{"plugin":430,"separar":true,"ocorrencias":99,"campos":[1,2,3]},{"plugin":425,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]},{"plugin":428,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9,10,11,12,13]},{"plugin":429,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8]},{"plugin":434,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]}]', 'campos_aquisicao': 'tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed', 'loja': 134387, 'finalizado': False, 'data_finalizacao': None, 'pause': False, 'transacao_id': 2999603, 'id_processo': 338, 'campo_aquisicao': '76264', 'status': 1, 'sucesso': False, 'data_cadastro_transacao': datetime.datetime(2025, 10, 23, 10, 59, 22, 630834), 'resposta': None, 'resposta_json': '', 'parametros': '&tlidersinistrocrmmed=76264', 'new_status': 1}, <Future at 0x1ba009111d0 state=running>: {'processo_id': 338, 'contrato': 417039, 'rede': 2620, 'codcns': 262936, 'nome_arquivo': 'new_lista_crm.csv', 'aceite_execucao': True, 'mensagem_alerta': None, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 59, 22, 627205), 'configuracao_json': '[{"plugin":430,"separar":true,"ocorrencias":99,"campos":[1,2,3]},{"plugin":425,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]},{"plugin":428,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9,10,11,12,13]},{"plugin":429,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8]},{"plugin":434,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]}]', 'campos_aquisicao': 'tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed', 'loja': 134387, 'finalizado': False, 'data_finalizacao': None, 'pause': False, 'transacao_id': 2999590, 'id_processo': 338, 'campo_aquisicao': '240532', 'status': 1, 'sucesso': False, 'data_cadastro_transacao': datetime.datetime(2025, 10, 23, 10, 59, 22, 630834), 'resposta': None, 'resposta_json': '', 'parametros': '&tlidersinistrocrmmed=240532', 'new_status': 1}}
+2025-10-27 16:01:04,022 - INFO - Resposta: []...
+2025-10-27 16:01:04,025 - WARNING - {'processo_id': 338, 'contrato': 417039, 'rede': 2620, 'codcns': 262936, 'nome_arquivo': 'new_lista_crm.csv', 'aceite_execucao': True, 'mensagem_alerta': None, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 59, 22, 627205), 'configuracao_json': '[{"plugin":430,"separar":true,"ocorrencias":99,"campos":[1,2,3]},{"plugin":425,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]},{"plugin":428,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9,10,11,12,13]},{"plugin":429,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8]},{"plugin":434,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]}]', 'campos_aquisicao': 'tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed', 'loja': 134387, 'finalizado': False, 'data_finalizacao': None, 'pause': False, 'transacao_id': 2999590, 'id_processo': 338, 'campo_aquisicao': '240532', 'status': 1, 'sucesso': False, 'data_cadastro_transacao': datetime.datetime(2025, 10, 23, 10, 59, 22, 630834), 'resposta': None, 'resposta_json': 'RESPOSTA NAO OBTIDA', 'parametros': '&tlidersinistrocrmmed=240532', 'new_status': 1, 'url': 'https://proscore.com.br/cns/json.chp?progestor_prc=338&rde=2620&rdelja=134387&ctr=417039&srvcns=1&tcnscod=262936&tlidersinistrocrmmed=240532', 'erro': True}
+2025-10-27 16:01:04,498 - INFO - Status atualizado para :: 7 - Transação 2999590
+2025-10-27 16:01:05,606 - INFO - Resposta: {"registro":[{"numero_plugin":"430","cpf_do_medico":"06665312852","nome_do_medico":"ZULEIDE ROMANO A...
+2025-10-27 16:01:05,617 - WARNING - {'processo_id': 338, 'contrato': 417039, 'rede': 2620, 'codcns': 262936, 'nome_arquivo': 'new_lista_crm.csv', 'aceite_execucao': True, 'mensagem_alerta': None, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 59, 22, 627205), 'configuracao_json': '[{"plugin":430,"separar":true,"ocorrencias":99,"campos":[1,2,3]},{"plugin":425,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]},{"plugin":428,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9,10,11,12,13]},{"plugin":429,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8]},{"plugin":434,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]}]', 'campos_aquisicao': 'tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed', 'loja': 134387, 'finalizado': False, 'data_finalizacao': None, 'pause': False, 'transacao_id': 2999603, 'id_processo': 338, 'campo_aquisicao': '76264', 'status': 1, 'sucesso': False, 'data_cadastro_transacao': datetime.datetime(2025, 10, 23, 10, 59, 22, 630834), 'resposta': None, 'resposta_json': '{"registro":[{"numero_plugin":"430","cpf_do_medico":"06665312852","nome_do_medico":"ZULEIDE ROMANO ATENSIA","crm_s_identificado_s":"76264 - SP"},{"numero_plugin":"425","cpf_do_medico":"06665312852","nome_do_medico":"ZULEIDE ROMANO ATENSIA","numero_do_crm":"76264","uf":"SP","situacao_do_crm":"ATIVO","tipo_de_inscricao":"PRINCIPAL","especialidade_do_medico":"OFTALMOLOGIA RQE N 34596","inscricao_para_outros_estados":"","data_da_consulta":"2020-08-03 00:00:00"},{"numero_plugin":"428","cpf_do_medico":"06665312852","nome_do_medico":"ZULEIDE ROMANO ATENSIA","cnpj_do_estabelecimento":"","estabelecimento":"CONSULTORIO MEDICO ZULEIDE ROMANO ATENSIA","estado":"SP","municipio":"SANTA BARBARA D\'OESTE","sus":"NAO","residente":"","cbo":"225265","descricao_do_cbo":"MEDICO OFTALMOLOGISTA","vinculo_estabelecimento":"AUTONOMO","vinculo_empregador":"PESSOA FISICA","detalhamento_do_vinculo":"NAO SE APLICA"},{"numero_plugin":"428","cpf_do_medico":"06665312852","nome_do_medico":"ZULEIDE ROMANO ATENSIA","cnpj_do_estabelecimento":"48628366000721","estabelecimento":"HOSPITAL UNIMED AMERICANA","estado":"SP","municipio":"AMERICANA","sus":"NAO","residente":"","cbo":"225265","descricao_do_cbo":"MEDICO OFTALMOLOGISTA","vinculo_estabelecimento":"AUTONOMO","vinculo_empregador":"COOPERADO","detalhamento_do_vinculo":"NAO SE APLICA"},{"numero_plugin":"428","cpf_do_medico":"06665312852","nome_do_medico":"ZULEIDE ROMANO ATENSIA","cnpj_do_estabelecimento":"","estabelecimento":"ZULEIDE ROMANO ATENSIA","estado":"SP","municipio":"AMERICANA","sus":"NAO","residente":"","cbo":"225265","descricao_do_cbo":"MEDICO OFTALMOLOGISTA","vinculo_estabelecimento":"AUTONOMO","vinculo_empregador":"PESSOA FISICA","detalhamento_do_vinculo":"NAO SE APLICA"},{"numero_plugin":"428","cpf_do_medico":"06665312852","nome_do_medico":"ZULEIDE ROMANO ATENSIA","cnpj_do_estabelecimento":"09101423000172","estabelecimento":"DAY HOSPITAL CENTRO MEDICO LTDA","estado":"SP","municipio":"AMERICANA","sus":"NAO","residente":"","cbo":"225265","descricao_do_cbo":"MEDICO OFTALMOLOGISTA","vinculo_estabelecimento":"AUTONOMO","vinculo_empregador":"PESSOA FISICA","detalhamento_do_vinculo":"NAO SE APLICA"},{"numero_plugin":"434","cpf_do_medico":"06665312852","nome_do_medico":"ZULEIDE ROMANO ATENSIA","cnpj":"02872259000158","razao_social":"AMERICANA SERVICOS MEDICOS LTDA","data_da_entrada":"23\\/11\\/1998","data_da_saida":"09\\/03\\/2012","cidade":"AMERICANA","estado":"SP","atividade_principal_cnae":"8630501 - ATIVIDADE MEDICA AMBULATORIAL COM RECURSOS PARA REALIZACAO DE PROCEDIMENTOS CIRURGICOS"},{"numero_plugin":"434","cpf_do_medico":"06665312852","nome_do_medico":"ZULEIDE ROMANO ATENSIA","cnpj":"09101423000172","razao_social":"DAY HOSPITAL CENTRO MEDICO LTDA","data_da_entrada":"27\\/09\\/2007","data_da_saida":"","cidade":"AMERICANA","estado":"SP","atividade_principal_cnae":"8610101 - ATIVIDADES DE ATENDIMENTO HOSPITALAR EXCETO PRONTO SOCORRO E UNIDADES PARA ATENDIMENTO A URGENCIAS"}]}', 'parametros': '&tlidersinistrocrmmed=76264', 'new_status': 1, 'url': 'https://proscore.com.br/cns/json.chp?progestor_prc=338&rde=2620&rdelja=134387&ctr=417039&srvcns=1&tcnscod=262936&tlidersinistrocrmmed=76264', 'erro': False}
+2025-10-27 16:01:06,173 - INFO - Status atualizado para :: 2 - Transação 2999603
+2025-10-27 16:01:06,224 - INFO - Lote concluído: 2 registros processados
+2025-10-27 16:01:06,299 - INFO - Lote processado com sucesso....
+2025-10-27 16:01:06,301 - INFO - minha quantidade de dados processados2
+2025-10-27 16:01:06,304 - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-10-27 16:01:06,308 - INFO - Processamento concluído em 10.50 segundos
+2025-10-27 16:01:06,309 - INFO - Total de registros processados: 2
+2025-10-27 16:01:06,310 - INFO - 
+================================================================================
+2025-10-27 16:01:06,334 - INFO - ESTATÍSTICAS DE EXECUÇÃO DE INSERIR PROCESSOS E REQUEST
+2025-10-27 16:01:06,348 - INFO - ================================================================================
+2025-10-27 16:01:06,349 - INFO - Início:                    2025-10-27 16:00:55
+2025-10-27 16:01:06,352 - INFO - Quantidade Maxima:         2
+2025-10-27 16:01:06,355 - INFO - Fim:                       2025-10-27 16:01:06
+2025-10-27 16:01:06,355 - INFO - Duração:                   10.50 segundos
+2025-10-27 16:01:06,358 - INFO - Quantidade:                2
+2025-10-27 16:01:06,359 - INFO - ================================================================================
+2025-10-27 16:01:06,360 - INFO - ================================================================================
+2025-10-27 16:01:06,362 - INFO - Iniciando Progestor - Mudar Status processo Proscore - 2025-10-27 16:01:06.360668
+2025-10-27 16:01:06,363 - INFO - ================================================================================
+2025-10-27 16:01:09,366 - INFO - Iniciando processamento de lote de status (2 registros máx).
+2025-10-27 16:01:10,342 - INFO -  Dados Capturados Status 5 2 registros para processamento.
+2025-10-27 16:01:10,495 - WARNING - Status 5 registros: [{'id_transacao': 2999604, 'id_processo': 338}, {'id_transacao': 2999605, 'id_processo': 338}]
+2025-10-27 16:01:10,498 - INFO - Iniciando processamento de status 2 registros
+2025-10-27 16:01:11,129 - INFO - registros a ser atualizado:  {'id_transacao': 2999604, 'id_processo': 338}
+2025-10-27 16:01:11,620 - INFO - Status atualizado para 3 - Transação 2999604
+2025-10-27 16:01:11,649 - INFO - registros a ser atualizado:  {'id_transacao': 2999605, 'id_processo': 338}
+2025-10-27 16:01:12,144 - INFO - Status atualizado para 3 - Transação 2999605
+2025-10-27 16:01:12,860 - WARNING - Fase 2 concluída: 2 registros preparados e gravados com status 3 e salvo como sucesso True
+2025-10-27 16:01:13,024 - INFO - minha quantidade de dados processados Status 5 registros 2
+2025-10-27 16:01:13,064 - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-10-27 16:01:13,072 - INFO - Processamento concluído em 6.70 segundos
+2025-10-27 16:01:13,082 - INFO - Total de registros processados: 2
+2025-10-27 16:01:13,131 - INFO - ================================================================================
+2025-10-27 16:01:13,148 - INFO - Iniciando Progestor - Mudar Status processo Proscore de 0 para 1- 2025-10-27 16:01:13.131165
+2025-10-27 16:01:13,210 - INFO - ================================================================================
+2025-10-27 16:01:13,237 - INFO - ESTOU NO PRCOCESSO ZERO
+2025-10-27 16:01:17,271 - INFO - Iniciando processamento de lote de status (2 registros máx).
+2025-10-27 16:01:18,233 - INFO -  Dados Capturados Status 1 1 registros para processamento.
+2025-10-27 16:01:18,401 - WARNING - 2
+2025-10-27 16:01:18,403 - WARNING - Recebo os dados e vou realizar para processar e atualizar
+2025-10-27 16:01:18,406 - WARNING - [{'id_transacao': 2999549, 'id_processo': 338}]
+2025-10-27 16:01:18,408 - INFO - Iniciando processamento de status 1 registros
+2025-10-27 16:01:19,513 - INFO - Status atualizado para 0 - Transação 2999549
+2025-10-27 16:01:20,031 - WARNING - Fase 2 concluída: 1 registros preparados e gravados com status 3 e salvo como sucesso True
+2025-10-27 16:01:20,032 - INFO - minha quantidade de dados processados Status 1  1
+2025-10-27 16:01:20,032 - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-10-27 16:01:20,036 - INFO - Processamento concluído em 6.90 segundos
+2025-10-27 16:01:20,038 - INFO - Total de registros processados: 1
+2025-10-27 16:01:20,039 - INFO - ================================================================================
+2025-10-27 16:01:20,039 - INFO - Pegando Processo Progestor Finalizar, Processos Parados  - 2025-10-27 16:01:20.039116
+2025-10-27 16:01:20,040 - INFO - ================================================================================
+2025-10-27 16:01:20,099 - INFO - 
+Encerrando loop por comando do usuário (Ctrl+C).
