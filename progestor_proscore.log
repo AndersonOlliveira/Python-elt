@@ -287,3 +287,351 @@ psycopg2.OperationalError: connection to server at "localhost" (::1), port 5432 
 2025-10-27 16:01:20,040 - INFO - ================================================================================
 2025-10-27 16:01:20,099 - INFO - 
 Encerrando loop por comando do usuário (Ctrl+C).
+2025-10-27 16:15:28,654 - INFO - [16:15:28] Iniciando loop contínuo...
+2025-10-27 16:15:28,654 - INFO - ================================================================================
+2025-10-27 16:15:28,655 - INFO - Iniciando Progestor - Consulta Proscore - 2025-10-27 16:15:28.654622
+2025-10-27 16:15:30,656 - INFO - ================================================================================
+2025-10-27 16:15:30,658 - INFO - Iniciando processamento de lote (2 registros máx).
+2025-10-27 16:15:30,659 - INFO - {<conection.ConectionClass.DbConfig object at 0x0000022357B3DA90>}
+2025-10-27 16:15:30,661 - INFO - {338}
+2025-10-27 16:15:30,662 - INFO - tamanho da busca 2
+2025-10-27 16:15:30,666 - WARNING - [DEBUG SQL] Parâmetros: [338, 2]
+2025-10-27 16:15:31,659 - INFO - Capturados 2 registros para processamento.
+2025-10-27 16:15:31,817 - INFO - Iniciando processamento de 2 registros
+2025-10-27 16:15:32,467 - WARNING - Campos aquisição: tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed
+2025-10-27 16:15:32,468 - WARNING - Meus valores fora do split: ['22544']
+2025-10-27 16:15:32,470 - INFO - Associação inicial (zip): {'tlidersinistrocrmmed': '22544'}
+2025-10-27 16:15:32,472 - INFO - O número de valores é 1, mas não é um CPF/CNPJ. Mantendo atribuição original e não é possível pesquisar.
+2025-10-27 16:15:32,474 - INFO - Parâmetros finais gerados: &tlidersinistrocrmmed=22544
+2025-10-27 16:15:32,962 - INFO - Status atualizado para :: 1 - Transação 2999506
+2025-10-27 16:15:32,963 - WARNING - Campos aquisição: tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed
+2025-10-27 16:15:32,965 - WARNING - Meus valores fora do split: ['146618']
+2025-10-27 16:15:32,967 - INFO - Associação inicial (zip): {'tlidersinistrocrmmed': '146618'}
+2025-10-27 16:15:32,968 - INFO - O número de valores é 1, mas não é um CPF/CNPJ. Mantendo atribuição original e não é possível pesquisar.
+2025-10-27 16:15:32,973 - INFO - Parâmetros finais gerados: &tlidersinistrocrmmed=146618
+2025-10-27 16:15:33,437 - INFO - Status atualizado para :: 1 - Transação 2999539
+2025-10-27 16:15:33,939 - WARNING - Fase 1 concluída: 2 
+2025-10-27 16:15:34,596 - INFO - 
+================================================================================
+2025-10-27 16:15:34,597 - INFO - ESTATÍSTICAS DE EXECUÇÃO DE INSERIR PROCESSOS E REQUEST
+2025-10-27 16:15:34,599 - INFO - ================================================================================
+2025-10-27 16:15:34,600 - INFO - Início:                    2025-10-27 16:15:28
+2025-10-27 16:15:34,601 - INFO - Quantidade Maxima:         2
+2025-10-27 16:15:34,602 - INFO - Fim:                       2025-10-27 16:15:34
+2025-10-27 16:15:34,606 - INFO - Duração:                   5.94 segundos
+2025-10-27 16:15:34,607 - INFO - [16:15:34] Erro inesperado: cannot access local variable 'total_processados_lote' where it is not associated with a value. Continuará em 30 segundos.
+2025-10-27 16:15:57,861 - INFO - [16:15:57] Iniciando loop contínuo...
+2025-10-27 16:15:57,861 - INFO - ================================================================================
+2025-10-27 16:15:57,862 - INFO - Iniciando Progestor - Consulta Proscore - 2025-10-27 16:15:57.861860
+2025-10-27 16:15:59,863 - INFO - ================================================================================
+2025-10-27 16:15:59,865 - INFO - Iniciando processamento de lote (2 registros máx).
+2025-10-27 16:15:59,868 - INFO - {<conection.ConectionClass.DbConfig object at 0x000001E9160CDA90>}
+2025-10-27 16:15:59,871 - INFO - {338}
+2025-10-27 16:15:59,877 - INFO - tamanho da busca 2
+2025-10-27 16:15:59,880 - WARNING - [DEBUG SQL] Parâmetros: [338, 2]
+2025-10-27 16:16:00,861 - INFO - Capturados 2 registros para processamento.
+2025-10-27 16:16:01,033 - INFO - Iniciando processamento de 2 registros
+2025-10-27 16:16:01,658 - WARNING - Campos aquisição: tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed
+2025-10-27 16:16:01,659 - WARNING - Meus valores fora do split: ['177639']
+2025-10-27 16:16:01,659 - INFO - Associação inicial (zip): {'tlidersinistrocrmmed': '177639'}
+2025-10-27 16:16:01,660 - INFO - O número de valores é 1, mas não é um CPF/CNPJ. Mantendo atribuição original e não é possível pesquisar.
+2025-10-27 16:16:01,660 - INFO - Parâmetros finais gerados: &tlidersinistrocrmmed=177639
+2025-10-27 16:16:02,135 - INFO - Status atualizado para :: 1 - Transação 2999543
+2025-10-27 16:16:02,136 - WARNING - Campos aquisição: tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed
+2025-10-27 16:16:02,138 - WARNING - Meus valores fora do split: ['191476']
+2025-10-27 16:16:02,139 - INFO - Associação inicial (zip): {'tlidersinistrocrmmed': '191476'}
+2025-10-27 16:16:02,141 - INFO - O número de valores é 1, mas não é um CPF/CNPJ. Mantendo atribuição original e não é possível pesquisar.
+2025-10-27 16:16:02,142 - INFO - Parâmetros finais gerados: &tlidersinistrocrmmed=191476
+2025-10-27 16:16:02,640 - INFO - Status atualizado para :: 1 - Transação 2999584
+2025-10-27 16:16:03,144 - WARNING - Fase 1 concluída: 2 
+2025-10-27 16:16:04,423 - INFO - Requisição: https://proscore.com.br/cns/json.chp?progestor_prc=338&rde=2620&rdelja=134387&ctr=417039&srvcns=1&tcnscod=262936&tlidersinistrocrmmed=177639
+2025-10-27 16:16:04,425 - INFO - Requisição: https://proscore.com.br/cns/json.chp?progestor_prc=338&rde=2620&rdelja=134387&ctr=417039&srvcns=1&tcnscod=262936&tlidersinistrocrmmed=191476
+2025-10-27 16:16:04,426 - INFO - meus fature {<Future at 0x1e9160cde80 state=running>: {'processo_id': 338, 'contrato': 417039, 'rede': 2620, 'codcns': 262936, 'nome_arquivo': 'new_lista_crm.csv', 'aceite_execucao': True, 'mensagem_alerta': None, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 59, 22, 627205), 'configuracao_json': '[{"plugin":430,"separar":true,"ocorrencias":99,"campos":[1,2,3]},{"plugin":425,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]},{"plugin":428,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9,10,11,12,13]},{"plugin":429,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8]},{"plugin":434,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]}]', 'campos_aquisicao': 'tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed', 'loja': 134387, 'finalizado': False, 'data_finalizacao': None, 'pause': False, 'transacao_id': 2999543, 'id_processo': 338, 'campo_aquisicao': '177639', 'status': 1, 'sucesso': False, 'data_cadastro_transacao': datetime.datetime(2025, 10, 23, 10, 59, 22, 630834), 'resposta': None, 'resposta_json': '', 'parametros': '&tlidersinistrocrmmed=177639', 'new_status': 1}, <Future at 0x1e9160d11d0 state=running>: {'processo_id': 338, 'contrato': 417039, 'rede': 2620, 'codcns': 262936, 'nome_arquivo': 'new_lista_crm.csv', 'aceite_execucao': True, 'mensagem_alerta': None, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 59, 22, 627205), 'configuracao_json': '[{"plugin":430,"separar":true,"ocorrencias":99,"campos":[1,2,3]},{"plugin":425,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]},{"plugin":428,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9,10,11,12,13]},{"plugin":429,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8]},{"plugin":434,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]}]', 'campos_aquisicao': 'tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed', 'loja': 134387, 'finalizado': False, 'data_finalizacao': None, 'pause': False, 'transacao_id': 2999584, 'id_processo': 338, 'campo_aquisicao': '191476', 'status': 1, 'sucesso': False, 'data_cadastro_transacao': datetime.datetime(2025, 10, 23, 10, 59, 22, 630834), 'resposta': None, 'resposta_json': '', 'parametros': '&tlidersinistrocrmmed=191476', 'new_status': 1}}
+2025-10-27 16:16:07,538 - INFO - Resposta: {"registro":[{"numero_plugin":"430","cpf_do_medico":"06314315867","nome_do_medico":"ABEL DA COSTA NE...
+2025-10-27 16:16:07,545 - WARNING - {'processo_id': 338, 'contrato': 417039, 'rede': 2620, 'codcns': 262936, 'nome_arquivo': 'new_lista_crm.csv', 'aceite_execucao': True, 'mensagem_alerta': None, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 59, 22, 627205), 'configuracao_json': '[{"plugin":430,"separar":true,"ocorrencias":99,"campos":[1,2,3]},{"plugin":425,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]},{"plugin":428,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9,10,11,12,13]},{"plugin":429,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8]},{"plugin":434,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]}]', 'campos_aquisicao': 'tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed', 'loja': 134387, 'finalizado': False, 'data_finalizacao': None, 'pause': False, 'transacao_id': 2999543, 'id_processo': 338, 'campo_aquisicao': '177639', 'status': 1, 'sucesso': False, 'data_cadastro_transacao': datetime.datetime(2025, 10, 23, 10, 59, 22, 630834), 'resposta': None, 'resposta_json': '{"registro":[{"numero_plugin":"430","cpf_do_medico":"06314315867","nome_do_medico":"ABEL DA COSTA NETO","crm_s_identificado_s":"177639 - SP"},{"numero_plugin":"425","cpf_do_medico":"06314315867","nome_do_medico":"ABEL DA COSTA NETO","numero_do_crm":"177639","uf":"SP","situacao_do_crm":"ATIVO","tipo_de_inscricao":"PRINCIPAL","especialidade_do_medico":"CLINICA MEDICA RQE N 62685 HEMATOLOGIA E HEMOTERAPIA RQE N 80092","inscricao_para_outros_estados":"","data_da_consulta":"2020-08-03 00:00:00"},{"numero_plugin":"434","cpf_do_medico":"06314315867","nome_do_medico":"ABEL DA COSTA NETO","cnpj":"09554096000104","razao_social":"UTI MED ITAIM SERVICOS MEDICOS LTDA","data_da_entrada":"01\\/01\\/2018","data_da_saida":"31\\/12\\/2018","cidade":"SAO PAULO","estado":"SP","atividade_principal_cnae":"8610102 - ATIVIDADES DE ATENDIMENTO EM PRONTO SOCORRO E UNIDADES HOSPITALARES PARA ATENDIMENTO A URGENCIAS"}]}', 'parametros': '&tlidersinistrocrmmed=177639', 'new_status': 1, 'url': 'https://proscore.com.br/cns/json.chp?progestor_prc=338&rde=2620&rdelja=134387&ctr=417039&srvcns=1&tcnscod=262936&tlidersinistrocrmmed=177639', 'erro': False}
+2025-10-27 16:16:07,694 - INFO - Resposta: {"registro":[{"numero_plugin":"430","cpf_do_medico":"40084274816","nome_do_medico":"ABILIO MARTINS D...
+2025-10-27 16:16:07,707 - WARNING - {'processo_id': 338, 'contrato': 417039, 'rede': 2620, 'codcns': 262936, 'nome_arquivo': 'new_lista_crm.csv', 'aceite_execucao': True, 'mensagem_alerta': None, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 59, 22, 627205), 'configuracao_json': '[{"plugin":430,"separar":true,"ocorrencias":99,"campos":[1,2,3]},{"plugin":425,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]},{"plugin":428,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9,10,11,12,13]},{"plugin":429,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8]},{"plugin":434,"separar":true,"ocorrencias":99,"campos":[1,2,3,4,5,6,7,8,9]}]', 'campos_aquisicao': 'tlidersinistrocrmmed,tpsqnom,tlidersinistroufmed', 'loja': 134387, 'finalizado': False, 'data_finalizacao': None, 'pause': False, 'transacao_id': 2999584, 'id_processo': 338, 'campo_aquisicao': '191476', 'status': 1, 'sucesso': False, 'data_cadastro_transacao': datetime.datetime(2025, 10, 23, 10, 59, 22, 630834), 'resposta': None, 'resposta_json': '{"registro":[{"numero_plugin":"430","cpf_do_medico":"40084274816","nome_do_medico":"ABILIO MARTINS DE SOUSA JUNIOR","crm_s_identificado_s":"191476 - SP"},{"numero_plugin":"425","cpf_do_medico":"40084274816","nome_do_medico":"ABILIO MARTINS DE SOUSA JUNIOR","numero_do_crm":"191476","uf":"SP","situacao_do_crm":"ATIVO","tipo_de_inscricao":"PRINCIPAL","especialidade_do_medico":"NAO REGISTRADO","inscricao_para_outros_estados":"","data_da_consulta":"2020-08-03 00:00:00"},{"numero_plugin":"428","cpf_do_medico":"40084274816","nome_do_medico":"ABILIO MARTINS DE SOUSA JUNIOR","cnpj_do_estabelecimento":"46392130000380","estabelecimento":"UBS JARDIM MITSUTANI","estado":"SP","municipio":"SAO PAULO","sus":"SIM","residente":"","cbo":"225142","descricao_do_cbo":"MEDICO DA ESTRATEGIA DE SAUDE DA FAMILIA","vinculo_estabelecimento":"INTERMEDIADO","vinculo_empregador":"CELETISTA","detalhamento_do_vinculo":"NAO SE APLICA"}]}', 'parametros': '&tlidersinistrocrmmed=191476', 'new_status': 1, 'url': 'https://proscore.com.br/cns/json.chp?progestor_prc=338&rde=2620&rdelja=134387&ctr=417039&srvcns=1&tcnscod=262936&tlidersinistrocrmmed=191476', 'erro': False}
+2025-10-27 16:16:08,194 - INFO - Status atualizado para :: 2 - Transação 2999543
+2025-10-27 16:16:08,195 - INFO - Status atualizado para :: 2 - Transação 2999584
+2025-10-27 16:16:08,197 - INFO - Lote concluído: 2 registros processados
+2025-10-27 16:16:08,198 - INFO - Lote processado com sucesso....
+2025-10-27 16:16:08,198 - INFO - minha quantidade de dados processados2
+2025-10-27 16:16:08,199 - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-10-27 16:16:08,202 - INFO - Processamento concluído em 10.34 segundos
+2025-10-27 16:16:08,203 - INFO - Total de registros processados: 2
+2025-10-27 16:16:08,205 - INFO - 
+================================================================================
+2025-10-27 16:16:08,208 - INFO - ESTATÍSTICAS DE EXECUÇÃO DE INSERIR PROCESSOS E REQUEST
+2025-10-27 16:16:08,209 - INFO - ================================================================================
+2025-10-27 16:16:08,210 - INFO - Início:                    2025-10-27 16:15:57
+2025-10-27 16:16:08,217 - INFO - Quantidade Maxima:         2
+2025-10-27 16:16:08,218 - INFO - Fim:                       2025-10-27 16:16:08
+2025-10-27 16:16:08,220 - INFO - Duração:                   10.34 segundos
+2025-10-27 16:16:08,227 - INFO - Quantidade:                2
+2025-10-27 16:16:08,228 - INFO - ================================================================================
+2025-10-27 16:16:08,229 - INFO - ================================================================================
+2025-10-27 16:16:08,231 - INFO - Iniciando Progestor - Mudar Status processo Proscore - 2025-10-27 16:16:08.229735
+2025-10-27 16:16:08,233 - INFO - ================================================================================
+2025-10-27 16:16:11,235 - INFO - Iniciando processamento de lote de status (2 registros máx).
+2025-10-27 16:16:12,178 - INFO -  Dados Capturados Status 5 2 registros para processamento.
+2025-10-27 16:16:12,338 - WARNING - Status 5 registros: [{'id_transacao': 2999585, 'id_processo': 338}, {'id_transacao': 2999521, 'id_processo': 338}]
+2025-10-27 16:16:12,340 - INFO - Iniciando processamento de status 2 registros
+2025-10-27 16:16:12,996 - INFO - registros a ser atualizado:  {'id_transacao': 2999585, 'id_processo': 338}
+2025-10-27 16:16:13,493 - INFO - Status atualizado para 3 - Transação 2999585
+2025-10-27 16:16:13,495 - INFO - registros a ser atualizado:  {'id_transacao': 2999521, 'id_processo': 338}
+2025-10-27 16:16:13,961 - INFO - Status atualizado para 3 - Transação 2999521
+2025-10-27 16:16:14,463 - WARNING - Fase 2 concluída: 2 registros preparados e gravados com status 3 e salvo como sucesso True
+2025-10-27 16:16:14,465 - INFO - minha quantidade de dados processados Status 5 registros 2
+2025-10-27 16:16:14,466 - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-10-27 16:16:14,469 - INFO - Processamento concluído em 6.24 segundos
+2025-10-27 16:16:14,471 - INFO - Total de registros processados: 2
+2025-10-27 16:16:14,472 - INFO - ================================================================================
+2025-10-27 16:16:14,476 - INFO - Iniciando Progestor - Mudar Status processo Proscore de 0 para 1- 2025-10-27 16:16:14.472672
+2025-10-27 16:16:14,477 - INFO - ================================================================================
+2025-10-27 16:16:14,480 - INFO - ESTOU NO PRCOCESSO ZERO
+2025-10-27 16:16:18,482 - INFO - Iniciando processamento de lote de status (2 registros máx).
+2025-10-27 16:16:19,430 - INFO -  Dados Capturados Status 1 0 registros para processamento.
+2025-10-27 16:16:19,588 - WARNING - 2
+2025-10-27 16:16:19,589 - WARNING - Recebo os dados e vou realizar para processar e atualizar
+2025-10-27 16:16:19,591 - WARNING - []
+2025-10-27 16:16:19,592 - INFO - Nenhum registro para processar
+2025-10-27 16:16:19,594 - INFO - minha quantidade de dados processados Status 1  0
+2025-10-27 16:16:19,596 - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-10-27 16:16:19,600 - INFO - Processamento concluído em 5.12 segundos
+2025-10-27 16:16:19,602 - INFO - Total de registros processados: 0
+2025-10-27 16:16:19,605 - INFO - ================================================================================
+2025-10-27 16:16:19,606 - INFO - Pegando Processo Progestor Finalizar, Processos Parados  - 2025-10-27 16:16:19.604953
+2025-10-27 16:16:19,607 - INFO - ================================================================================
+2025-10-27 16:16:26,186 - INFO -  Dados Capturados do que esta em andamento 37 registros para processamento.
+2025-10-27 16:16:26,989 - INFO - Proceso não finalizado {'processo_id': 342, 'data_cadastro': datetime.datetime(2025, 10, 27, 14, 29, 56, 622300), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': False, 'error': False, 'qt_registros_total': 441, 'qt_registros_finalizados': 33, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:26,991 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:26,993 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:26,994 - INFO - Sem dados para ser marcado como concluído {'processo_id': 342, 'data_cadastro': datetime.datetime(2025, 10, 27, 14, 29, 56, 622300), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': False, 'error': False, 'qt_registros_total': 441, 'qt_registros_finalizados': 33, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:26,997 - INFO - Proceso não finalizado {'processo_id': 341, 'data_cadastro': datetime.datetime(2025, 10, 27, 14, 29, 26, 727660), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': False, 'error': False, 'qt_registros_total': 441, 'qt_registros_finalizados': 38, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:27,005 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:27,011 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:27,015 - INFO - Sem dados para ser marcado como concluído {'processo_id': 341, 'data_cadastro': datetime.datetime(2025, 10, 27, 14, 29, 26, 727660), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': False, 'error': False, 'qt_registros_total': 441, 'qt_registros_finalizados': 38, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:27,027 - INFO - Proceso não finalizado {'processo_id': 340, 'data_cadastro': datetime.datetime(2025, 10, 27, 14, 28, 58, 18650), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': False, 'error': False, 'qt_registros_total': 471, 'qt_registros_finalizados': 44, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:27,030 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:27,031 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:27,032 - INFO - Sem dados para ser marcado como concluído {'processo_id': 340, 'data_cadastro': datetime.datetime(2025, 10, 27, 14, 28, 58, 18650), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': False, 'error': False, 'qt_registros_total': 471, 'qt_registros_finalizados': 44, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:27,034 - INFO - Proceso não finalizado {'processo_id': 339, 'data_cadastro': datetime.datetime(2025, 10, 27, 14, 28, 26, 969695), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': False, 'error': False, 'qt_registros_total': 441, 'qt_registros_finalizados': 39, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:27,035 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:27,036 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:27,036 - INFO - Sem dados para ser marcado como concluído {'processo_id': 339, 'data_cadastro': datetime.datetime(2025, 10, 27, 14, 28, 26, 969695), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': False, 'error': False, 'qt_registros_total': 441, 'qt_registros_finalizados': 39, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:27,037 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:27,038 - INFO - Ids status 7 encontrados :: 338
+2025-10-27 16:16:27,038 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:27,039 - INFO - ids para atualizar: 338
+2025-10-27 16:16:27,512 - INFO - Status atualizado para o Status - Para todos que tem o id 338
+2025-10-27 16:16:27,513 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:27,515 - INFO - Processo Atualizado para o Status de 7 para 3 338 , quantidade:  1
+2025-10-27 16:16:27,517 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:27,519 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:27,523 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:27,525 - INFO - Sem dados para ser marcado como concluído {'processo_id': 338, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 59, 22, 627205), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 75, 'qt_registros_finalizados': 30, 'qt_registros_erros': 1, 'erro': True}
+2025-10-27 16:16:27,532 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:27,535 - INFO - Ids status 7 encontrados :: 336
+2025-10-27 16:16:27,537 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:27,541 - INFO - ids para atualizar: 336
+2025-10-27 16:16:28,014 - INFO - Status atualizado para o Status - Para todos que tem o id 336
+2025-10-27 16:16:28,019 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:28,022 - INFO - Processo Atualizado para o Status de 7 para 3 336 , quantidade:  11
+2025-10-27 16:16:28,026 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:28,029 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:28,032 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:28,039 - INFO - Sem dados para ser marcado como concluído {'processo_id': 336, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 56, 41, 620477), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 441, 'qt_registros_finalizados': 66, 'qt_registros_erros': 11, 'erro': True}
+2025-10-27 16:16:28,050 - INFO - Proceso não finalizado {'processo_id': 335, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 51, 39, 342128), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 40, 'qt_registros_finalizados': 5, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,053 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:28,054 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:28,054 - INFO - Sem dados para ser marcado como concluído {'processo_id': 335, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 51, 39, 342128), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 40, 'qt_registros_finalizados': 5, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,056 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:28,058 - INFO - Ids status 7 encontrados :: 334
+2025-10-27 16:16:28,058 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:28,060 - INFO - ids para atualizar: 334
+2025-10-27 16:16:28,556 - INFO - Status atualizado para o Status - Para todos que tem o id 334
+2025-10-27 16:16:28,557 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:28,557 - INFO - Processo Atualizado para o Status de 7 para 3 334 , quantidade:  3
+2025-10-27 16:16:28,558 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:28,559 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:28,559 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:28,559 - INFO - Sem dados para ser marcado como concluído {'processo_id': 334, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 50, 26, 470330), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 75, 'qt_registros_finalizados': 7, 'qt_registros_erros': 3, 'erro': True}
+2025-10-27 16:16:28,560 - INFO - Proceso não finalizado {'processo_id': 332, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 42, 11, 702836), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 14, 'qt_registros_finalizados': 1, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,561 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:28,562 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:28,563 - INFO - Sem dados para ser marcado como concluído {'processo_id': 332, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 42, 11, 702836), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 14, 'qt_registros_finalizados': 1, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,564 - INFO - Proceso não finalizado {'processo_id': 331, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 41, 5, 869643), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 14, 'qt_registros_finalizados': 6, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,565 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:28,566 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:28,567 - INFO - Sem dados para ser marcado como concluído {'processo_id': 331, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 41, 5, 869643), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 14, 'qt_registros_finalizados': 6, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,568 - INFO - Proceso não finalizado {'processo_id': 330, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 40, 4, 698193), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 14, 'qt_registros_finalizados': 1, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,569 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:28,570 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:28,570 - INFO - Sem dados para ser marcado como concluído {'processo_id': 330, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 40, 4, 698193), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 14, 'qt_registros_finalizados': 1, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,571 - INFO - Proceso não finalizado {'processo_id': 329, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 25, 15, 715521), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 14, 'qt_registros_finalizados': 3, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,572 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:28,573 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:28,573 - INFO - Sem dados para ser marcado como concluído {'processo_id': 329, 'data_cadastro': datetime.datetime(2025, 10, 23, 10, 25, 15, 715521), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 14, 'qt_registros_finalizados': 3, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,574 - INFO - Proceso não finalizado {'processo_id': 325, 'data_cadastro': datetime.datetime(2025, 10, 22, 13, 21, 28, 837058), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 441, 'qt_registros_finalizados': 98, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,575 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:28,576 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:28,576 - INFO - Sem dados para ser marcado como concluído {'processo_id': 325, 'data_cadastro': datetime.datetime(2025, 10, 22, 13, 21, 28, 837058), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 441, 'qt_registros_finalizados': 98, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,577 - INFO - Proceso não finalizado {'processo_id': 324, 'data_cadastro': datetime.datetime(2025, 10, 22, 13, 17, 54, 968738), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 40, 'qt_registros_finalizados': 13, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,579 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:28,580 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:28,580 - INFO - Sem dados para ser marcado como concluído {'processo_id': 324, 'data_cadastro': datetime.datetime(2025, 10, 22, 13, 17, 54, 968738), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 40, 'qt_registros_finalizados': 13, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:28,582 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:28,583 - INFO - Ids status 7 encontrados :: 323
+2025-10-27 16:16:28,584 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:28,584 - INFO - ids para atualizar: 323
+2025-10-27 16:16:29,045 - INFO - Status atualizado para o Status - Para todos que tem o id 323
+2025-10-27 16:16:29,046 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:29,051 - INFO - Processo Atualizado para o Status de 7 para 3 323 , quantidade:  1
+2025-10-27 16:16:29,054 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:29,057 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:29,058 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:29,058 - INFO - Sem dados para ser marcado como concluído {'processo_id': 323, 'data_cadastro': datetime.datetime(2025, 10, 20, 10, 22, 12, 361744), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 26, 'qt_registros_finalizados': 13, 'qt_registros_erros': 1, 'erro': True}
+2025-10-27 16:16:29,061 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:29,063 - INFO - Ids status 7 encontrados :: 321
+2025-10-27 16:16:29,064 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:29,067 - INFO - ids para atualizar: 321
+2025-10-27 16:16:29,539 - INFO - Status atualizado para o Status - Para todos que tem o id 321
+2025-10-27 16:16:29,540 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:29,541 - INFO - Processo Atualizado para o Status de 7 para 3 321 , quantidade:  1
+2025-10-27 16:16:29,541 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:29,542 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:29,544 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:29,551 - INFO - Sem dados para ser marcado como concluído {'processo_id': 321, 'data_cadastro': datetime.datetime(2025, 10, 17, 13, 24, 24, 967039), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 40, 'qt_registros_finalizados': 32, 'qt_registros_erros': 1, 'erro': True}
+2025-10-27 16:16:29,554 - INFO - Proceso não finalizado {'processo_id': 320, 'data_cadastro': datetime.datetime(2025, 10, 17, 13, 23, 3, 700592), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 20, 'qt_registros_finalizados': 7, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:29,564 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:29,567 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:29,568 - INFO - Sem dados para ser marcado como concluído {'processo_id': 320, 'data_cadastro': datetime.datetime(2025, 10, 17, 13, 23, 3, 700592), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 20, 'qt_registros_finalizados': 7, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:29,570 - INFO - Proceso não finalizado {'processo_id': 319, 'data_cadastro': datetime.datetime(2025, 10, 17, 13, 10, 38, 205107), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 20, 'qt_registros_finalizados': 3, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:29,572 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:29,573 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:29,574 - INFO - Sem dados para ser marcado como concluído {'processo_id': 319, 'data_cadastro': datetime.datetime(2025, 10, 17, 13, 10, 38, 205107), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 20, 'qt_registros_finalizados': 3, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:29,588 - INFO - Proceso não finalizado {'processo_id': 318, 'data_cadastro': datetime.datetime(2025, 10, 17, 13, 9, 33, 65427), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 16, 'qt_registros_finalizados': 3, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:29,589 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:29,591 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:29,592 - INFO - Sem dados para ser marcado como concluído {'processo_id': 318, 'data_cadastro': datetime.datetime(2025, 10, 17, 13, 9, 33, 65427), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 16, 'qt_registros_finalizados': 3, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:29,594 - INFO - Proceso não finalizado {'processo_id': 316, 'data_cadastro': datetime.datetime(2025, 10, 17, 13, 2, 22, 696663), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 437, 'qt_registros_finalizados': 92, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:29,594 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:29,595 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:29,595 - INFO - Sem dados para ser marcado como concluído {'processo_id': 316, 'data_cadastro': datetime.datetime(2025, 10, 17, 13, 2, 22, 696663), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 437, 'qt_registros_finalizados': 92, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:29,596 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:29,596 - INFO - Ids status 7 encontrados :: 315
+2025-10-27 16:16:29,597 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:29,597 - INFO - ids para atualizar: 315
+2025-10-27 16:16:30,060 - INFO - Status atualizado para o Status - Para todos que tem o id 315
+2025-10-27 16:16:30,061 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:30,063 - INFO - Processo Atualizado para o Status de 7 para 3 315 , quantidade:  1
+2025-10-27 16:16:30,065 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:30,067 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:30,068 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:30,069 - INFO - Sem dados para ser marcado como concluído {'processo_id': 315, 'data_cadastro': datetime.datetime(2025, 10, 17, 12, 57, 23, 438376), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 16, 'qt_registros_finalizados': 2, 'qt_registros_erros': 1, 'erro': True}
+2025-10-27 16:16:30,070 - INFO - Proceso não finalizado {'processo_id': 314, 'data_cadastro': datetime.datetime(2025, 10, 17, 12, 54, 49, 806970), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 20, 'qt_registros_finalizados': 2, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,070 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:30,071 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:30,071 - INFO - Sem dados para ser marcado como concluído {'processo_id': 314, 'data_cadastro': datetime.datetime(2025, 10, 17, 12, 54, 49, 806970), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 20, 'qt_registros_finalizados': 2, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,072 - INFO - Proceso não finalizado {'processo_id': 313, 'data_cadastro': datetime.datetime(2025, 10, 17, 12, 53, 48, 691522), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 40, 'qt_registros_finalizados': 10, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,073 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:30,073 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:30,073 - INFO - Sem dados para ser marcado como concluído {'processo_id': 313, 'data_cadastro': datetime.datetime(2025, 10, 17, 12, 53, 48, 691522), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 40, 'qt_registros_finalizados': 10, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,074 - INFO - Proceso não finalizado {'processo_id': 312, 'data_cadastro': datetime.datetime(2025, 10, 17, 10, 45, 35, 552662), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 20, 'qt_registros_finalizados': 1, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,075 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:30,075 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:30,076 - INFO - Sem dados para ser marcado como concluído {'processo_id': 312, 'data_cadastro': datetime.datetime(2025, 10, 17, 10, 45, 35, 552662), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 20, 'qt_registros_finalizados': 1, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,077 - INFO - Proceso não finalizado {'processo_id': 310, 'data_cadastro': datetime.datetime(2025, 10, 17, 10, 32, 41, 428119), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 20, 'qt_registros_finalizados': 2, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,077 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:30,078 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:30,079 - INFO - Sem dados para ser marcado como concluído {'processo_id': 310, 'data_cadastro': datetime.datetime(2025, 10, 17, 10, 32, 41, 428119), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 20, 'qt_registros_finalizados': 2, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,081 - INFO - Proceso não finalizado {'processo_id': 308, 'data_cadastro': datetime.datetime(2025, 10, 16, 16, 41, 17, 680051), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 56, 'qt_registros_finalizados': 53, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,083 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:30,083 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:30,084 - INFO - Sem dados para ser marcado como concluído {'processo_id': 308, 'data_cadastro': datetime.datetime(2025, 10, 16, 16, 41, 17, 680051), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 56, 'qt_registros_finalizados': 53, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,084 - INFO - Proceso não finalizado {'processo_id': 307, 'data_cadastro': datetime.datetime(2025, 10, 16, 16, 33, 12, 96258), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 52, 'qt_registros_finalizados': 23, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,085 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:30,085 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:30,086 - INFO - Sem dados para ser marcado como concluído {'processo_id': 307, 'data_cadastro': datetime.datetime(2025, 10, 16, 16, 33, 12, 96258), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 52, 'qt_registros_finalizados': 23, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:30,086 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:30,087 - INFO - Ids status 7 encontrados :: 304
+2025-10-27 16:16:30,087 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:30,088 - INFO - ids para atualizar: 304
+2025-10-27 16:16:30,549 - INFO - Status atualizado para o Status - Para todos que tem o id 304
+2025-10-27 16:16:30,550 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:30,550 - INFO - Processo Atualizado para o Status de 7 para 3 304 , quantidade:  8
+2025-10-27 16:16:30,551 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:30,551 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:30,552 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:30,552 - INFO - Sem dados para ser marcado como concluído {'processo_id': 304, 'data_cadastro': datetime.datetime(2025, 10, 14, 15, 8, 54, 287550), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 437, 'qt_registros_finalizados': 111, 'qt_registros_erros': 8, 'erro': True}
+2025-10-27 16:16:30,552 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:30,553 - INFO - Ids status 7 encontrados :: 303
+2025-10-27 16:16:30,553 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:30,553 - INFO - ids para atualizar: 303
+2025-10-27 16:16:31,018 - INFO - Status atualizado para o Status - Para todos que tem o id 303
+2025-10-27 16:16:31,019 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:31,019 - INFO - Processo Atualizado para o Status de 7 para 3 303 , quantidade:  4
+2025-10-27 16:16:31,020 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:31,020 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:31,021 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:31,021 - INFO - Sem dados para ser marcado como concluído {'processo_id': 303, 'data_cadastro': datetime.datetime(2025, 10, 14, 14, 55, 20, 363720), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 437, 'qt_registros_finalizados': 66, 'qt_registros_erros': 4, 'erro': True}
+2025-10-27 16:16:31,022 - INFO - Proceso não finalizado {'processo_id': 302, 'data_cadastro': datetime.datetime(2025, 10, 14, 14, 53, 56, 2138), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 40, 'qt_registros_finalizados': 5, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,023 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:31,023 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:31,024 - INFO - Sem dados para ser marcado como concluído {'processo_id': 302, 'data_cadastro': datetime.datetime(2025, 10, 14, 14, 53, 56, 2138), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 40, 'qt_registros_finalizados': 5, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,025 - INFO - Proceso não finalizado {'processo_id': 301, 'data_cadastro': datetime.datetime(2025, 10, 14, 14, 26, 24, 787508), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 1, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,026 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:31,026 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:31,027 - INFO - Sem dados para ser marcado como concluído {'processo_id': 301, 'data_cadastro': datetime.datetime(2025, 10, 14, 14, 26, 24, 787508), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 1, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,028 - INFO - Proceso não finalizado {'processo_id': 300, 'data_cadastro': datetime.datetime(2025, 10, 13, 13, 3, 47, 874896), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 2, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,028 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:31,029 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:31,029 - INFO - Sem dados para ser marcado como concluído {'processo_id': 300, 'data_cadastro': datetime.datetime(2025, 10, 13, 13, 3, 47, 874896), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 2, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,030 - INFO - Proceso não finalizado {'processo_id': 299, 'data_cadastro': datetime.datetime(2025, 10, 13, 12, 54, 11, 432427), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 3, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,031 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:31,032 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:31,032 - INFO - Sem dados para ser marcado como concluído {'processo_id': 299, 'data_cadastro': datetime.datetime(2025, 10, 13, 12, 54, 11, 432427), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 3, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,033 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:31,034 - INFO - Ids status 7 encontrados :: 282
+2025-10-27 16:16:31,034 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:31,035 - INFO - ids para atualizar: 282
+2025-10-27 16:16:31,503 - INFO - Status atualizado para o Status - Para todos que tem o id 282
+2025-10-27 16:16:31,504 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:31,506 - INFO - Processo Atualizado para o Status de 7 para 3 282 , quantidade:  6
+2025-10-27 16:16:31,508 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:31,510 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:31,513 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:31,513 - INFO - Sem dados para ser marcado como concluído {'processo_id': 282, 'data_cadastro': datetime.datetime(2025, 10, 9, 11, 56, 0, 130246), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 438, 'qt_registros_finalizados': 52, 'qt_registros_erros': 6, 'erro': True}
+2025-10-27 16:16:31,514 - INFO - Proceso não finalizado {'processo_id': 278, 'data_cadastro': datetime.datetime(2025, 10, 6, 17, 4, 58, 244115), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 2, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,515 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:31,515 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:31,516 - INFO - Sem dados para ser marcado como concluído {'processo_id': 278, 'data_cadastro': datetime.datetime(2025, 10, 6, 17, 4, 58, 244115), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 2, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,516 - INFO - Proceso não finalizado {'processo_id': 275, 'data_cadastro': datetime.datetime(2025, 10, 6, 16, 56, 29, 574868), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 2, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,517 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:31,517 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:31,518 - INFO - Sem dados para ser marcado como concluído {'processo_id': 275, 'data_cadastro': datetime.datetime(2025, 10, 6, 16, 56, 29, 574868), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 2, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,518 - INFO - Proceso não finalizado {'processo_id': 274, 'data_cadastro': datetime.datetime(2025, 10, 6, 16, 24, 31, 615510), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 2, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,519 - INFO - Meus dados a não ser processado True
+2025-10-27 16:16:31,519 - INFO - =NÃO ATUALIZEI=
+2025-10-27 16:16:31,520 - INFO - Sem dados para ser marcado como concluído {'processo_id': 274, 'data_cadastro': datetime.datetime(2025, 10, 6, 16, 24, 31, 615510), 'data_finalizacao': None, 'finalizado': False, 'iniciado_a_mais_de_tres_dias': True, 'error': False, 'qt_registros_total': 2, 'qt_registros_finalizados': 0, 'qt_registros_erros': 0, 'erro': True}
+2025-10-27 16:16:31,520 - WARNING - Fase 4 concluída Finalizado Processos: 0 
+2025-10-27 16:16:31,521 - INFO - ================================================================================================================================================================
+2025-10-27 16:16:31,522 - INFO - minha quantidade de dados processados para ser Atualizado:  0
+2025-10-27 16:16:31,522 - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-10-27 16:16:31,523 - INFO - Processamento concluído em 11.92 segundos
+2025-10-27 16:16:31,523 - INFO - Total de registros processados Finalizado: 0
+2025-10-27 16:16:31,524 - INFO - Total de registros Status Seven alterados: 9
+2025-10-27 16:16:31,524 - INFO - 
+================================================================================
+2025-10-27 16:16:31,524 - INFO - ESTATÍSTICAS DE EXECUÇÃO
+2025-10-27 16:16:31,525 - INFO - ================================================================================
+2025-10-27 16:16:31,525 - INFO - Início:                    2025-10-27 16:16:19
+2025-10-27 16:16:31,526 - INFO - Fim:                       2025-10-27 16:16:31
+2025-10-27 16:16:31,526 - INFO - Duração:                   11.92 segundos
+2025-10-27 16:16:31,526 - INFO - Quantidade:                0
+2025-10-27 16:16:31,527 - INFO - Quantidade alter status seven:                9
+2025-10-27 16:16:31,527 - INFO - ================================================================================
+2025-10-27 16:16:31,528 - INFO - [16:16:31] Processador 338: Ciclo completo.
+2025-10-27 16:16:31,528 - INFO - [16:16:31] Aguardando 60 segundos para o próximo ciclo...
+2025-10-27 16:17:23,991 - INFO - 
+Encerrando loop por comando do usuário (Ctrl+C).
