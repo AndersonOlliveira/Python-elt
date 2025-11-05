@@ -25,3 +25,17 @@ nohup /home/proscore/projeto_progestor/.venv/bin/python /home/proscore/projeto_p
 ps aux | grep arquivo_initil.py
 
 pkill -f arquivo_initil.py
+
+
+# versão do mongo db instalada
+
+db version v8.2.1
+Build Info: {
+    "version": "8.2.1",
+    "gitVersion": "3312bdcf28aa65f5930005e21c2cb130f648b8c3",
+    "modules": [],
+    "allocator": "tcmalloc-gperf",
+    "environment": {
+        "distmod": "windows"
+    }
+}
