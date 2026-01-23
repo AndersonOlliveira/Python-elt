@@ -5,7 +5,7 @@ import classLogger
 
 
 if __name__ == "__main__":
-    instance = Processor(max_workers=10, batch_size=2, idProcesso=338)
+    instance = Processor(max_workers=10, batch_size=10, idProcesso=366)
     # instance = Processor(max_workers=10, batch_size=75)
     tempo_espera_ciclo = 60  # Tempo de espera (em segundos) entre um ciclo e outro
     

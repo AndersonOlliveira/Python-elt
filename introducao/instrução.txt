@@ -12,7 +12,8 @@ rodar o pip install -r  requiriments.txt para instalar as bibliotecas
 # comentar o 
 # psycopg2==2.9.11
 # psycopg2-binary==2.9.11
-rodar no proprio terminal o pip install psycopg2-binary (lembrando que precisa esta funcionando o .venv)
+rodar no proprio terminal o pip install psycopg2-binary (lembrando que precisa esta funcionando o .venv)pip install psycopg2-binary
+
 x
 #comand
 /home/proscore/projeto_progestor/.venv/bin/python /home/proscore/projeto_progestor/arquivo_initil.py
@@ -21,6 +22,38 @@ x
 
 rodar manualmente em background (sem cron)
 nohup /home/proscore/projeto_progestor/.venv/bin/python /home/proscore/projeto_progestor/arquivo_initil.py > /home/proscore/projeto_progestor/log_processo.log 2>&1 &
+
+nohup /home/proscore/new_projeto_progestor/.venv/bin/python \ /home/proscore/new_projeto_progestor/arquivo_initil.py \ > /home/proscore/new_projeto_progestor/log_processo.log 2>&1 &
+
+--- new 
+nohup /home/proscore/new_projeto_progestor/.venv/bin/python \
+/home/proscore/new_projeto_progestor/arquivo_initil.py \
+> /home/proscore/new_projeto_progestor/log_processo.log 2>&1 &
+
+
+
+Navegue até o diretório do seu projeto e use o seguinte comando: 
+bash
+cd /home/proscore/new_projeto_progestor
+nohup .venv/bin/python arquivo_initil.py > output.log 2>&1 &
+nohup php index.php > output.log 2>&1 &
+
+
+
+--  verificar se esta rodando 
+pgrep -af arquivo_initil.py
+
+
+nohup /home/proscore/mvc/.venv/bin/python /home/proscore/mvc/index.php > /home/proscore/mvc/log_processo.log 2>&1
+
+para rodar acessar o painel, acessar pasta e rotar o 
+
+ nohup .venv/bin/python arquivo_initil.py > output.log 2>&1 &
+ nohup .venv/bin/python arquivo_initil.py  > output.log 2>&1 &
+
+
+
+kill e id do processo 
 
 ps aux | grep arquivo_initil.py
 

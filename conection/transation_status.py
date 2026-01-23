@@ -212,7 +212,7 @@ def process_status_zero(self):
 
      query_status = ("""SELECT  (t.transacao_id) as id_transacao,t.id_processo
                       FROM progestor.transacao as t 
-                      where t.id_processo NOT IN (235,234,227,225) and t.status in (1,7,6) and t.data_cadastro < now() - interval '30 minutes'    """)
+                      where t.id_processo NOT IN (235,234,227,225) and t.status in (1,7) and t.data_cadastro < now() - interval '30 minutes'    """)
     
      params = []
 
