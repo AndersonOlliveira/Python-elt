@@ -1,6 +1,6 @@
 para criar o ambiente e preciso usar
-python -m venv venv
-python -m venv .venv # para uso no SSH 
+    python -m venv venv
+    python -m venv .venv # para uso no SSH 
 NO SERVIDOR app-progestor-proscore.hostmundi.com
 que e linux a pasta fica como .venv/bin/ 
 rodar comando no terminasl source .venv/bin/activate
@@ -28,7 +28,7 @@ nohup /home/proscore/new_projeto_progestor/.venv/bin/python \ /home/proscore/new
 --- new 
 nohup /home/proscore/new_projeto_progestor/.venv/bin/python \
 /home/proscore/new_projeto_progestor/arquivo_initil.py \
-> /home/proscore/new_projeto_progestor/log_processo.log 2>&1 &
+> /home/proscore/new_projeto_progestor/log_processoNewConection.log 2>&1 &
 
 
 
@@ -36,7 +36,13 @@ Navegue até o diretório do seu projeto e use o seguinte comando:
 bash
 cd /home/proscore/new_projeto_progestor
 nohup .venv/bin/python arquivo_initil.py > output.log 2>&1 &
-nohup php index.php > output.log 2>&1 &
+nohup php index.php > outputLogPhp.log 2>&1 &
+
+-- PARA RODA A PORTA WEB
+nohup php -S 0.0.0.0:9081 -t  /home/proscore/page_teste/PROJETO-MONGODB-PHP-POSTGRESQL >  serverss_.log 2>&1 &
+--- ver processo rodando
+ ps aux | grep php
+
 
 
 
